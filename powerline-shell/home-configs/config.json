@@ -1,0 +1,40 @@
+{
+  "segments": [
+    "virtual_env",
+    "username",
+    "hostname",
+    "ssh",
+    "cwd",
+    "hg",
+    "root"
+  ],
+  "cwd": {
+    "mode": "dironly",
+    "max_depth": 1
+  },
+  "mode": "flat",
+  "theme": "~/.config/powerline-shell/themes/tbdark.py",
+  "default_top_theme": "tbdark.json",
+  "ext": {
+		"shell": {
+			"colorscheme": "default",
+			"top_theme": "tbdark",
+			"theme": "tbdark",
+			"local_themes": {
+				"continuation": "continuation",
+				"select": "select"
+			},
+      "dividers": {
+        "left": {
+          "hard": "#> ",
+          "soft": "#> "
+        },
+        "right": {
+          "hard": " <",
+          "soft": " <"
+        }
+      }
+      
+		}
+  }
+}

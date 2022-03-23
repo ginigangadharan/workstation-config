@@ -1,0 +1,15 @@
+{
+	"dividers": {
+		"left": {
+			"hard": ">",
+			"soft": ">"
+		},
+		"right": {
+			"hard": " <",
+			"soft": " <"
+		}
+	},
+	"spaces": 10,
+	"name": "tbdark"
+	
+}
